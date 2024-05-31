@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4; /* Kolor tła */
+}
+
+#search-box {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.country-list {
+  list-style: none; /* Usuń punktor listy */
+  padding: 0;
+}
+
+.country-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.country-list img {
+  margin-right: 10px; /* Margines po prawej stronie obrazu flagi */
+}
+
+.country-info {
+  padding: 20px;
+  border: 1px solid #ddd; /* Obramowanie kontenera informacji */
+  background-color: #fff; /* Kolor tła kontenera informacji */
+}
+
+.country-info img {
+  display: block;
+  margin-bottom: 20px; /* Margines pod obrazem flagi */
+}
+
+/*# sourceMappingURL=/styles.b61e60ae.css.map */
